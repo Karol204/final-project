@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2dbd557-e42f-4379-8a35-3c7d3f96bd74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projektKoncowy.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bRDN6RW8prrsflxw98Jtasof1i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="projektKoncowy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="projektKoncowy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="projektKoncowy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="projektKoncowy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="projektKoncowy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="projektKoncowy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="projektKoncowy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="projektKoncowy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2dbd557-e42f-4379-8a35-3c7d3f96bd74" name="Default Changelist" comment="" />
+      <created>1588585969107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588585969107</updated>
+      <workItem from="1588585990006" duration="6379000" />
+      <workItem from="1588600727575" duration="6526000" />
+      <workItem from="1588662287093" duration="6866000" />
+      <workItem from="1588671695000" duration="8447000" />
+      <workItem from="1588751997391" duration="18333000" />
+      <workItem from="1588839208325" duration="6123000" />
+      <workItem from="1588845356184" duration="11294000" />
+      <workItem from="1588891740106" duration="883000" />
+      <workItem from="1588892644363" duration="1051000" />
+      <workItem from="1588921215562" duration="4841000" />
+      <workItem from="1589495486677" duration="212000" />
+      <workItem from="1589830959833" duration="627000" />
+      <workItem from="1589906680181" duration="1976000" />
+      <workItem from="1589976671404" duration="1213000" />
+      <workItem from="1590019192350" duration="616000" />
+      <workItem from="1590162832889" duration="1404000" />
+      <workItem from="1590520911175" duration="2019000" />
+      <workItem from="1591039454874" duration="639000" />
+      <workItem from="1591306317025" duration="511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="282" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588593322980">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="282" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588593322980" />
+    <state x="373" y="443" width="413" height="217" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1588842653226">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="373" y="443" width="413" height="217" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588842653226" />
+    <state x="751" y="297" key="#xdebugger.evaluate" timestamp="1588844864897">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="751" y="297" key="#xdebugger.evaluate/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588844864897" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589831990525">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1589831990525" />
+    <state width="1807" height="271" key="GridCell.Tab.0.bottom" timestamp="1588939633979">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="271" key="GridCell.Tab.0.bottom/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588939633979" />
+    <state width="1807" height="271" key="GridCell.Tab.0.center" timestamp="1588939633978">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="271" key="GridCell.Tab.0.center/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588939633978" />
+    <state width="1807" height="271" key="GridCell.Tab.0.left" timestamp="1588939633978">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="271" key="GridCell.Tab.0.left/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588939633978" />
+    <state width="1807" height="271" key="GridCell.Tab.0.right" timestamp="1588939633979">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="271" key="GridCell.Tab.0.right/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588939633979" />
+    <state width="1807" height="334" key="GridCell.Tab.1.bottom" timestamp="1588893695226">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="334" key="GridCell.Tab.1.bottom/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588893695226" />
+    <state width="1807" height="334" key="GridCell.Tab.1.center" timestamp="1588893695226">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="334" key="GridCell.Tab.1.center/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588893695226" />
+    <state width="1807" height="334" key="GridCell.Tab.1.left" timestamp="1588893695226">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="334" key="GridCell.Tab.1.left/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588893695226" />
+    <state width="1807" height="334" key="GridCell.Tab.1.right" timestamp="1588893695226">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="334" key="GridCell.Tab.1.right/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588893695226" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1588848773012">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588848773012" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1588844245776">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1588844245776" />
+  </component>
+</project>
