@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Wybierz placówkę z listy.</h1>
+<ul>
+{% for place in places %}
+    <li><a href="/doctor-visit/{{ place.id }}/">{{ place.city }} - {{ place.region }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}
+

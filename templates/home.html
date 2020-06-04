@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+
+  Hi {{ user.username }}! {% if user.profil %} <a href="/profil/">Wyświetl</a> lub <a href="/profil/{{ user.profil.id }}">Edytuj profil</a> {% else %} <a href="/update_profil/">Uzupełnij profil</a>{% endif %}
+    <ul class="nav justify-content-center">
+    <li class="nav-item"><a class="nav-link active" href="/doctors/" class="list-group-item list-group-item-action">Lista lekarzy</a></li>
+        <li class="nav-item"><a class="nav-link active" href="/visits/" class="list-group-item list-group-item-action">Moje wizyty</a></li>
+        <li class="nav-item"><a class="nav-link active" href="/placowki/" class="list-group-item list-group-item-action">Placówki</a></li>
+    </ul>
+
+    <button class="btn btn-dark"><a href="/new-visit/">Umów wizytę</a></button>
+    <button class="btn btn-dark"><a href="{% url 'logout' %}">logout</a></button>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div>
+        <h3>Zmiana trybu konsultacji!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis nec ante quis sodales. Nam euismod porta feugiat. Phasellus id egestas ante. Nulla commodo magna a mi maximus, vel finibus neque consequat. Donec cursus dictum blandit. Phasellus posuere accumsan ligula, eget tincidunt ligula molestie ut. Aliquam fringilla pharetra efficitur. Integer at porttitor ipsum. Nunc posuere risus ac tortor semper hendrerit. Pellentesque lacinia lorem lorem. Integer euismod nisi quis auctor laoreet.
+
+            Vestibulum lobortis ullamcorper luctus. Morbi commodo augue non augue aliquam ultricies. Aliquam feugiat ultricies est, sed scelerisque augue elementum nec. Phasellus mollis nisl at libero vestibulum accumsan. Maecenas aliquet dictum pretium. Suspendisse ultrices risus sit amet fermentum posuere. Nulla facilisi. Pellentesque eu enim pretium, porta leo at, consequat enim. Nulla.</p>
+    </div>
+
+</div>
+
+<div >
+    <div><h3>Wizyty</h3></div>
+    <div>
+        <ul>
+{% for visit in visits %}
+    <li>{{ visit.date }} {{ visit.doc }} <p>Opis: {{ visit.description }}</p></li>
+{% endfor %}
+</ul>
+    </div>
+</div>
+{% else %}
+  <h1>Zaloguj się do profilu pacjenta</h1>
+    <button class="btn btn-dark"><a href="{% url 'login' %}">Login</a></button>
+    <h1>Jeśli nie masz jeszcze konta możesz je założyć tutaj</h1>
+    <button class="btn btn-dark"><a href={% url 'signup' %}>Zarejestruj</a></button>
+    <h3>Nie pamiętasz hasła?</h3>
+    <button class="btn btn-dark"><a href="{% url 'password_reset' %}">Przypomnij hasło</a></button>
+{% endif %}
+
+{% endblock %}

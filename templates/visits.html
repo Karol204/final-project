@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h3>Najbliższe wizyty:</h3>
+<ul class="list-group list-group-flush">
+{% for visit in visits %}
+    <li class="list-group-item">{{ visit.date }} {{ visit.time }} <p>Lekarz: {{ visit.doc }} </p><p>Miejsce wizyty: {{ visit.place.address }}</p><p>Opis: {{ visit.description }}</p></li>
+    <button class="btn btn-dark" style="width: 200px"><a href="/delete_visit/{{ visit.id }}" style="text-decoration: none; color: aliceblue;">Odmów </a></button>
+{% endfor %}
+</ul>
+{% endblock %}
+

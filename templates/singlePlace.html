@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Placówka {{ place.city }}</h2>
+    <h3>Lista lekarzy w tej placówce:</h3>
+
+    <ul>
+    {% for doctor in place.doc.all %}
+        <li>{{ doctor.name }} {{ doctor.surname}} {{ doctor.specialization }}</li>
+    {% endfor %}
+    </ul>
+    <div style="margin-top: 150px;">
+<h3>Dane kontaktowe:</h3>
+    <p>Addres: {{ place.address }}</p>
+    <p>Telefon: {{ place.kontakt }}</p>
+    <p>Email: {{ place.email }}</p>
+    </div>
+{% endblock %}

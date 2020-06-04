@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form method="GET" action="">
+    {%  csrf_token %}
+    <input class="form-control mr-sm-2" style="width: 30vh"
+                       type="search"
+                       placeholder="Szukaj lekarza..."
+                       aria-label="Search"
+                       name="search_term">
+
+    <p><input type="submit" value="Szukaj"></p>
+    <button><a style="color: black" href="/doctors/">Wyczyść</a> </button>
+    </form>
+    <form method="get" action="">
+<button class="btn btn-dark"><a href="/new-visit/" style="text-decoration: none; color: aliceblue">Umów wizytę</a></button>
+    <ul class="list-group list-group-flush">
+{% for doctor in doctors %}
+<li class="list-group-item">{{ doctor.name }} {{ doctor.surname }} <h4>{{ doctor.specialization }}</h4> <p>Lekarz przyjmuje w placówkach:</p>{% for placówka in doctor.placówka_set.all %}<a href="/place/{{ placówka.id }}">{{ placówka }} </a>{% endfor %}</li>
+{% endfor %}
+</ul>
+{% endblock %}
